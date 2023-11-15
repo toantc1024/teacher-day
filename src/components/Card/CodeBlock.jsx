@@ -7,7 +7,8 @@ function CkdeBlock() {
     while(Student.isAlive()){
         Student.say("Thank you, teachers!");
         Student.sleep();
-        Student.code();
+        Student.learn();
+        Student.eat();
         Student.repeat();
     }`;
 
