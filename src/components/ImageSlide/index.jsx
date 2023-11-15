@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import "./slide.css";
 import { HiArrowDown } from "react-icons/hi";
-const ImageSlide = ({ showImageSlide, setShowThankyou }) => {
+const ImageSlide = ({ ref, showImageSlide, setShowThankyou }) => {
   let emojis = [
     "🧑‍🏫",
     "👩‍🏫",
@@ -38,6 +38,7 @@ const ImageSlide = ({ showImageSlide, setShowThankyou }) => {
   ];
   return (
     <div
+      ref={ref}
       id="image-slide-section"
       className="h-screen overflow-hidden flex items-center justify-between px-32 relative"
     >

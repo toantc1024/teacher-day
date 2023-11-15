@@ -133,7 +133,7 @@ const Hero = ({ setShowLetter }) => {
         // style={{ scrollBehavior: "smooth" }}
         onClick={() => {
           // scroll to element with id="next"
-          document.getElementById("thank-you-section").scrollIntoView({
+          document.getElementById("card-section").scrollIntoView({
             behavior: "smooth",
           });
           setShowLetter(true);
