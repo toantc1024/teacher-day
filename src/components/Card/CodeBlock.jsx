@@ -6,9 +6,8 @@ function CkdeBlock() {
   const first_text = `
     while(Student.isAlive()){
         Student.say("Thank you, teachers!");
-        Student.sleep();
         Student.learn();
-        Student.eat();
+        Student.live();
         Student.repeat();
     }`;
 
